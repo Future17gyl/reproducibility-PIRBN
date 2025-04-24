@@ -12,12 +12,12 @@ cat > README.md << 'EOF'
 ## 环境依赖
 
 - 创建并激活 Conda 环境  
-  - \`conda create -n pirbn_paddle python=3.8 -y\`  
-  - \`conda activate pirbn_paddle\`  
+  - conda create -n pirbn_paddle python=3.8 -y
+  -  conda activate pirbn_paddle
 - 安装核心库  
-  - \`pip install paddlepaddle==2.6.0 paddlesci numpy matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple\`  
+  - pip install paddlepaddle==2.6.0 paddlesci numpy matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 - 安装 Notebook 支持  
-  - \`conda install -c conda-forge notebook ipykernel jupyterlab -y\`  
+  - conda install -c conda-forge notebook ipykernel jupyterlab -y 
 
 ---
 
@@ -38,15 +38,15 @@ cat > README.md << 'EOF'
 ## 使用步骤
 
 1. 克隆仓库并进入  
-   \`git clone https://github.com/Future17gyl/reproducibility-PIRBN.git\`  
-   \`cd reproducibility-PIRBN\`  
+   git clone https://github.com/Future17gyl/reproducibility-PIRBN.git  
+   cd reproducibility-PIRBN
 2. 启动 JupyterLab  
-   \`conda activate pirbn_paddle\`  
-   \`jupyter lab\`  
+   conda activate pirbn_paddle
+   jupyter lab
 3. 依次打开并运行以下 Notebook  
-   - \`01_run_baseline.ipynb\`  
-   - \`02_additional_runs.ipynb\`  
-   - \`03_compare_pinn.ipynb\`  
+   - 01_run_baseline.ipynb
+   - 02_additional_runs.ipynb
+   - 03_compare_pinn.ipynb
 4. 查看输出  
    - 训练日志  
    - Loss 曲线  
