@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Reproducibility-PIRBN
 
 基于 PaddlePaddle/PaddleScience 复现论文中提出的 PIRBN 模型，包含 Baseline 实验、多频扩展实验及与 PINN 的对比研究。
