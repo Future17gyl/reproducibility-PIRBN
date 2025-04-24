@@ -38,7 +38,7 @@ cat > README.md << 'EOF'
 ## 使用步骤
 
 1. 克隆仓库并进入  
-   \`git clone https://github.com/<你的账号>/reproducibility-PIRBN.git\`  
+   \`git clone https://github.com/Future7gyl/reproducibility-PIRBN.git\`  
    \`cd reproducibility-PIRBN\`  
 2. 启动 JupyterLab  
    \`conda activate pirbn_paddle\`  
